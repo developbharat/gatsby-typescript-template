@@ -1,0 +1,26 @@
+{
+  "name": "gsby",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "watch": "tsc -w",
+    "tsc:root-watch": "yarn run tsc:root -w",
+    "build": "yarn run tsc:root & tsc",
+    "tsc:root": "tsc *.ts --outDir .",
+    "gatsby:develop": "gatsby develop",
+    "gatsby:build": "gatsby build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "gatsby": "^2.25.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
