@@ -7,7 +7,7 @@ The template uses complete typescript features, even the gatsby configuration fi
 Run the following command to start a new Gatsby project with our template.
 
 ```sh
-
+gatsby new hello-world https://github.com/developbharat/gatsby-typescript-template
 ```
 
 ## Folder Structure
